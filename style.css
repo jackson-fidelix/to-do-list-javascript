@@ -1,0 +1,51 @@
+:root{
+    --color-dark: rgb(59, 59, 59);
+    --color-dark2: rgb(32, 32, 32);
+    --color-dark3: rgb(10, 10, 10);
+    --color-white: #fff;
+    --color-green: rgb(103, 195, 80);
+    --color-green2: rgb(51, 149, 26);
+    --color-red: rgb(184, 40, 35);
+    --color-red2: rgb(146, 20, 14);    
+}
+
+
+body{
+    font-family: lato;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+#to-do-icon{
+    width: 35px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content--add--item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#input-new-task,
+#btn-new-task{
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.content--body{
+
+}
