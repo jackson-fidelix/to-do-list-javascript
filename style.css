@@ -1,18 +1,19 @@
 :root{
     --color-dark: rgb(59, 59, 59);
     --color-dark2: rgb(32, 32, 32);
-    --color-dark3: rgb(10, 10, 10);
+    --color-dark3: rgba(0, 0, 0, 0.849);
     --color-white: #fff;
     --color-green: rgb(103, 195, 80);
     --color-green2: rgb(51, 149, 26);
     --color-red: rgb(184, 40, 35);
-    --color-red2: rgb(146, 20, 14);    
+    --color-red2: rgb(146, 20, 14);
+    --color-gray: rgba(99, 99, 99, 0.7);    
 }
 
 
 body{
     font-family: lato;
-    background-color: var(--color-dark);
+    background-color: var(--color-gray);
     color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -24,6 +25,16 @@ body{
     width: 35px;
     height: 35px;
     padding-left: 5px;
+}
+
+.content--monday{
+    background-color: var(--color-dark2);
+    padding-top: 20px;
+    padding-inline: 40px;
+    padding-bottom: 60px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 20px rgba(7, 7, 7, 0.849);
+    gap: 1rem;
 }
 
 .content{
@@ -43,9 +54,40 @@ body{
 #btn-new-task{
     border: none;
     font-size: 1rem;
-    
+    outline: none;
+    padding: 1rem;
 }
 
-.content--body{
+#input-new-task{
+    width: 20rem;
+    border-radius: 1rem;
+}
 
+#btn-new-task{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-new-task:hover{
+    background-color: var(--color-dark3);
+}
+
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
 }
