@@ -8,13 +8,14 @@
     <title>To Do List</title>
 </head>
 <body>
+    <br>
     <h1> To Do List
         <svg id="to-do-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
             <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
             <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
         </svg> </h1>
     	
-        
+<div class="container-dad">     
         <!--divisão para lista de segunda-feira  -->
     <div class="content--monday">
         <h1>Monday</h1>    
@@ -34,8 +35,30 @@
                 </ul>
             </div>
         </div>
-    </div>    
+    </div>
+    
+    
+    <div class="content--tuesday">
+        <h1>Tuesday</h1>    
+        <div class="content">
+            <div class="content--add--item">
+                <input type="text" id="input-new-task" placeholder="Type your new Task">
+                <button id="btn-new-task" onclick="newTask()" title="Type here for add">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                    </svg></button>
+            </div>
+            <div class="content--body">
+                <ul id="to-do-list">
+                    <!-- <li>testezin <button>ok</button></li>
+                    <li>01</li>
+                    <li>02</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
 
+</div>
     
     <h2><strong>&copy; JackTech </strong></h2>
 </body>
