@@ -2,13 +2,13 @@ const localStorageKey = 'to-do-list-jack'
 
 function validateNewTask() {
     let values      = JSON.parse(localStorage.getItem('localStorageKey') || "[]")
-    let inputValue  = document.getElementById('input-new-task').value
+    let inputValue  = document.getElementById('input-new-task-monday').value
     let exists      = values.find(x => x.name == inputValue)
     return !exists ? false : true
 }
 
 function newTask() {
-    let input = document.getElementById('input-new-task')
+    let input = document.getElementById('input-new-task-monday')
     input.style.border = ''
 
     // validation
@@ -34,6 +34,7 @@ function newTask() {
     }
     input.value = ''
 }
+
 
 function showValues(){
     let values = JSON.parse(localStorage.getItem('localStorageKey') || "[]")
