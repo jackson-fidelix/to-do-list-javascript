@@ -56,11 +56,15 @@ body{
 }
 
 #input-new-task-monday,
+#btn-new-task-monday,
 #input-new-task-tuesday,
+#btn-new-task-tuesday,
 #input-new-task-wednesday,
+#btn-new-task-wednesday,
 #input-new-task-thursday,
+#btn-new-task-thursday,
 #input-new-task-friday,
-#btn-new-task{
+#btn-new-task-friday{
     border: none;
     font-size: 1rem;
     outline: none;
@@ -76,7 +80,11 @@ body{
     border-radius: 1rem;
 }
 
-#btn-new-task{
+#btn-new-task-monday,
+#btn-new-task-tuesday,
+#btn-new-task-wednesday,
+#btn-new-task-thursday,
+#btn-new-task-friday{
     background-color: var(--color-dark);
     color: var(--color-white);
     border-radius: 50%;
@@ -86,18 +94,30 @@ body{
     transition: .4s;
 }
 
-#btn-new-task:hover{
+#btn-new-task-monday:hover,
+#btn-new-task-tuesday:hover,
+#btn-new-task-wednesday:hover,
+#btn-new-task-thursday:hover,
+#btn-new-task-friday:hover{
     background-color: var(--color-dark3);
 }
 
-#to-do-list{
+#to-do-list-monday,
+#to-do-list-tuesday,
+#to-do-list-wednesday,
+#to-do-list-thursday,
+#to-do-list-friday{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
 }
 
-#to-do-list li{
+#to-do-list-monday li,
+#to-do-list-tuesday li,
+#to-do-list-wednesday li,
+#to-do-list-thursday li,
+#to-do-list-friday li{
     list-style-type: none;
     font-size: 1.5rem;
     text-transform: capitalize;
@@ -106,7 +126,11 @@ body{
     align-items: center;
 }
 
-#to-do-list li:hover{
+#to-do-list-monday li:hover,
+#to-do-list-tuesday li:hover,
+#to-do-list-wednesday li:hover,
+#to-do-list-thursday li:hover,
+#to-do-list-friday li:hover{
     background-color: var(--color-gray);
     transition: .4s;
     border-radius: 1rem;
