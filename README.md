@@ -63,6 +63,7 @@ Desenvolvido por Jackson Felipe Fidelix.
 
 🎉 Obrigado por conferir o ToDoListJackTech! Se você gostou, fique à vontade para dar uma ⭐ no repositório!
 
-![image](https://github.com/user-attachments/assets/4a12c0a3-4ebf-49ba-9b6b-712129e26d64)
+![Imagem do WhatsApp de 2024-10-14 à(s) 14 40 24_82188b54](https://github.com/user-attachments/assets/85164e3e-ecad-4bec-9268-1b073292c0d3)
+
 
 "I want the best of the two Worlds hehe, God Bless!"
