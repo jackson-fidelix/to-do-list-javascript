@@ -58,10 +58,11 @@ Suas tarefas são salvas automaticamente no navegador usando o LocalStorage, ent
 🧑‍💻 Autor
 
 Desenvolvido por Jackson Felipe Fidelix. 
-
 ---
 
 🎉 Obrigado por conferir o ToDoListJackTech! Se você gostou, fique à vontade para dar uma ⭐ no repositório!
+
+Se quiser testar, acesse https://to-do-list-javascript-jackson-fidelixs-projects.vercel.app/ 
 
 ![Imagem do WhatsApp de 2024-10-14 à(s) 14 40 24_82188b54](https://github.com/user-attachments/assets/85164e3e-ecad-4bec-9268-1b073292c0d3)
 
