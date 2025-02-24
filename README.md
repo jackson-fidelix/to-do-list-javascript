@@ -29,7 +29,7 @@ Bem-vindo ao ToDoListJackTech! 🎯 Este projeto combina a simplicidade de um To
 
 1. Clone o repositório para sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/ToDoListJackTech.git
+   git clone https://github.com/jackson-fidelix/to-do-list-javascript.git
 
 2. Abra o arquivo index.html no seu navegador para iniciar a aplicação.
 
